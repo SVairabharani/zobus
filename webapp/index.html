@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zobus</title>
+    <link rel="stylesheet" href="loginstyle.css">
+    <script src="javaS.js"></script>
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/zobus/images/ZOBUS_LOGO.png">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3287070572417360"
+         crossorigin="anonymous"></script>
+    <!-- for reCapche -->
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+</head>
+<body>
+<!-- loginpage -->
+<div class="loginpage">
+    <div class="loginbox">
+        <div class="logo"></div>
+        <p>Sign in to your account</p>
+        <div class="choose">
+            <p class="customerBtn" id="custom" onclick="changeCustomer()">Customer</p>
+            <p class="admintBtn" id="admin" onclick="changeAdmin()">Admin</p>
+        </div>
+        <input name="username" id="user" type="text" placeholder="Username">
+        <input name="password" id="pwd" class="password" type="text" placeholder="password">
+        <input name="adminpassword" id="adminpwd" class="adminpassword" type="text" placeholder="Admin password">
+        <div class="signinsignup" id="actionBar">
+            <a id="signup" href="#">sign up</a>
+            <a id="forget"href="#">forget password</a>
+        </div>
+ <!--   <div class="submitBtn"><button type="submit" id="sub" onclick="verification()">Login</button></div>  -->
+        <div class="submitBtn"><button type="submit" id="sub" onclick="verification()">Login</button></div>
+
+    </div>
+   <div class="busClip"></div>
+</div>
+
+    
+</body>
+</html> 
